@@ -1,0 +1,45 @@
+body{
+    background-color: rgba(152, 152, 125, 0.128);
+}
+div header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+    padding: 20px;
+}
+.nav a{
+    background-color:rgba(15, 13, 13, 0.169);
+    color: rgba(5, 5, 5, 0.792);
+    width: 1000px;
+    padding: 0px;
+}
+.nav ul{
+    background-color: rgb(210, 192, 192);
+    padding:10px;
+    list-style-type: none;
+    margin: 0px;
+    text-align: right;
+}
+.nav li{
+    padding: 20px;
+    margin: 0px;
+    display: inline;
+
+}
+.nav li a{
+    text-decoration: none;
+    text-align: center;  
+}
+ section p{
+    padding: 10px;
+    width: 750px;
+    margin: 0px;
+    
+}
+footer{
+    text-align-last: center;
+    background-color: black;
+    color: white;
+}
