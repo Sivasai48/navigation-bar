@@ -9,18 +9,13 @@ div header{
     width: auto;
     padding: 20px;
 }
-.nav a{
-    background-color:rgba(15, 13, 13, 0.169);
-    color: rgba(5, 5, 5, 0.792);
-    width: 1000px;
-    padding: 0px;
-}
 .nav ul{
     background-color: rgb(210, 192, 192);
     padding:10px;
     list-style-type: none;
     margin: 0px;
     text-align: right;
+    word-spacing: 0em;
 }
 .nav li{
     padding: 20px;
@@ -30,16 +25,36 @@ div header{
 }
 .nav li a{
     text-decoration: none;
-    text-align: center;  
+    text-align: center; 
+    color: brown; 
+}
+.nav a:hover{
+    color: rgb(12, 10, 10);
+
+}
+section h3{
+    background-image: url("images/background1.jpeg");
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 30px;
+    font-size: 20px;
 }
  section p{
-    padding: 10px;
-    width: 750px;
+    padding: 30px;
     margin: 0px;
-    
+    background-image: url("images/background2.jpeg");
+    background-position: center right;
+    color: white;
+    font-size: 18px;
+    padding-left: 40px;
+   
 }
 footer{
+    
     text-align-last: center;
     background-color: black;
     color: white;
+    font-size: 18px;
+    
 }
